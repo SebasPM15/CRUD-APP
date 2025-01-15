@@ -9,7 +9,6 @@ export function createConnection() {
         user: process.env.DB_USER || "root",
         password: process.env.DB_PASS || "root",
         database: process.env.DB_NAME || "cursos_app",
-        port: process.env.PORTDB || 3111
     });
 
     db.connect((err) => {

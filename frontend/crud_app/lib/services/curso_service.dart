@@ -3,7 +3,7 @@ import 'package:http/http.dart' as http;
 import '../models/curso.dart';
 
 class CursoService {
-  static const String baseUrl = "http://192.168.3.8:3111/cursos";
+  static const String baseUrl = "http://192.168.47.150:3111/cursos";
 
   Future<List<Curso>> getCursos() async {
     final response = await http.get(Uri.parse(baseUrl));

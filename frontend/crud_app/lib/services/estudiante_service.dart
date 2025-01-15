@@ -4,7 +4,7 @@ import '../models/estudiante.dart';
 
 class EstudianteService {
   static const String baseUrl =
-      "http://192.168.3.8:3111/estudiantes"; // Cambia según tu configuración
+      "http://192.168.47.150:3111/estudiantes"; // Cambia según tu configuración
 
   /// Obtener todos los estudiantes
   Future<List<Estudiante>> getEstudiantes() async {
